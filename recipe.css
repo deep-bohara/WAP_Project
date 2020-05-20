@@ -1,0 +1,14 @@
+h1{
+    color:goldenrod;
+        background-color: whitesmoke;
+            text-align: center;
+}
+img{
+    width: 170px;
+    height: 190px;
+}
+
+blockquote{
+    background-color: yellow;
+    font-style: italic;
+}

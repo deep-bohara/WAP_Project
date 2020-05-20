@@ -1,0 +1,35 @@
+#intro{
+
+    color: cornsilk;
+    background-color: cornflowerblue;
+    font-size: 18px;
+}
+.validate{
+    color: crimson;
+    background-color: darkcyan;
+    font-size: 17px;
+}
+img{
+    width: 400px;
+    height: 350px;
+}
+
+h1,h2,h3{
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    color: blue;
+
+}
+ul{
+    color: darkgreen;
+    size: 17px;
+}
+ol{
+    color: darkmagenta;
+    size: 17px;
+}
+
+body{
+    background-color: khaki;
+}
