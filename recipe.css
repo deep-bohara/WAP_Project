@@ -16,7 +16,8 @@ blockquote{
 body{
   background-image: url("img/silverware.jpg");
   background-repeat: repeat-x;
-  /* background-repeat: repeat-y; */
+  background-repeat: repeat-y;
+  background-repeat: space;
 
    
 }
