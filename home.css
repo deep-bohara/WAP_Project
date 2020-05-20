@@ -8,6 +8,13 @@
         background-repeat: repeat-y; 
          background-repeat: space;
         background-position : 370px 20px; */
+        
+      }
+      strong{
+          color:red;
+      }
+      ul{
+          color: azure;
       }
 
       p{
