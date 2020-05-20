@@ -15,6 +15,11 @@
       }
 
 body{
-    background-image: url("img/myback.jpeg");
+    background-image: url("img/myback.jpg");
+    /* background-image: url("img/silverware.jpg"); */
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; 
+     background-repeat: space;
+    background-position : 370px 20px;
 
 }
