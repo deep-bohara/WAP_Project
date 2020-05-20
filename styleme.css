@@ -23,11 +23,11 @@ h1,h2,h3{
 }
 ul{
     color: darkgreen;
-    size: 17px;
+    font-size: 17px;
 }
 ol{
     color: darkmagenta;
-    size: 17px;
+    font-size: 17px;
 }
 
 body{
