@@ -1,11 +1,28 @@
 h1{
-    color:goldenrod;
-        background-color: whitesmoke;
+   color:#A4A400;
+        background-color:#F0F0F0 ;
             text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font:bold;
+           font-size: 22pt;
+           text-decoration: underline;
+        }
+h2{
+    color:#A4A400;
+    background-color:#F0F0F0 ;
+        text-align: left;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font:bold;
+       font-size: 18pt;
+       text-decoration: underline;
 }
 img{
     width: 170px;
     height: 190px;
+}
+
+a{
+    color: #A4A400;
 }
 
 ul {
@@ -18,12 +35,16 @@ blockquote{
 }
 
 body{
+    background-color: white;
   background-image: url("img/silverware.jpg");
   background-repeat: repeat-x;
   background-repeat: repeat-y; 
    background-repeat: space;
   background-position : 370px 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #404040;
+  font-size: 11pt;
         padding:0 3%;
    
 }
