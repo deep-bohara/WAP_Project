@@ -2,7 +2,7 @@
     body{
         font-family: Arial, Helvetica, sans-serif;
         padding:0 3%;
-        background-image: url("img/homepageBack.jpg");
+        background-image: url("img/back.jpg");
         /* background-image: url("img/silverware.jpg"); */
         /* background-repeat: repeat-x;
         background-repeat: repeat-y; 
@@ -10,13 +10,7 @@
         background-position : 370px 20px; */
         
       }
-      strong{
-          color:red;
-      }
-      ul{
-          color: azure;
-      }
-
+      
       p{
           line-height: 1.4cm;
       }
