@@ -20,7 +20,10 @@ img{
     width: 170px;
     height: 190px;
 }
+pre{
 
+    font-family: monospace;
+}
 a{
     color: #A4A400;
 }
