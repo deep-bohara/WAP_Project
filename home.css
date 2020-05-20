@@ -15,5 +15,6 @@
       }
 
 body{
-    background-image: url(img/myback.jpeg);
+    background-image: url("img/myback.jpeg");
+
 }
