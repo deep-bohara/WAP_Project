@@ -8,6 +8,10 @@ img{
     height: 190px;
 }
 
+ul {
+    list-style-image: url('img/pie_bullet.png');
+  }
+
 blockquote{
     background-color: #FFFFA8;
     font-style: italic;
