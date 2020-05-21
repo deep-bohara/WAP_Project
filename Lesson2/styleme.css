@@ -42,4 +42,9 @@ ol{
 body{
     background-color:powderblue;
     padding:0 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+dt{
+    color: springgreen;
+
 }
