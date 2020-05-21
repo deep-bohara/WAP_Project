@@ -1,10 +1,13 @@
 body{
-    background-image: url("img/background.png");
+    background-image: url("skeleton_files/background.png");
     font-size: 8pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-div img{
+.banner{
     display: block;
     position: relative;
+    background-image: url("skeleton_files/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
