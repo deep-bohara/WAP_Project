@@ -3,11 +3,11 @@ body{
     font-size: 8pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.banner{
+/* .banner{
     display: block;
     position: relative;
     background-image: url("skeleton_files/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
 
-}
+} */
