@@ -5,9 +5,14 @@ body{
 }
 .banner{
     display: block;
-    position: relative;
+    position:static;
     background-image: url("skeleton_files/banner.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-repeat: repeat-x; */
+    /* background-position:left; */
+    /* height: 80px; */
 
+}
+h1{
+    text-align: center;
 }
