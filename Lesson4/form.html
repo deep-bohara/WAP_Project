@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>form</title>
+
+
+    <link href="form.css" type="text/css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <div class="w-70">
+        <form>
+            <fieldset>
+            <legend>Personal details</legend>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label class="required">First Name</label>
+                    <input type="text" name="first_name" />
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">Last Name</label>
+                    <input type="text" name="last_name" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label>Phone Number</label>
+                    <input type="tel" name="phn">
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label>Email ID</label>
+                    <input type="text" name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label>Gender</label>
+                    <input type="radio" name="gender" value="Male" checked> Male<br>
+                    <input type="radio" name="gender" value="Female"> Female<br>
+                    <input type="radio" name="gender" value="Other"> Other
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">Date of Birth</label>
+                    <input type="date" name="dob">
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label class="required">Social Security Number</label>
+                    <input type="text" name="ssn">
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">Payment Info</label>
+                    <select name="payment_info">
+                        <option value="">Select type</option>
+                        <option value="card">Credit Card</option>
+                        <option value="check">Visa Card</option>
+                        <option value="cash">Cash</option>
+                    </select>
+                </div>
+            </div>
+            </fieldset>
+            <fieldset>
+            <legend>Billing Address</legend>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label class="required">Street</label>
+                    <input type="text" name="street">
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">City</label>
+                    <input type="text" name="city">
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label class="required">State</label>
+                    <input type="text" name="state">
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">Zip Code</label>
+                    <input type="text" name="shipadd">
+                </div>
+            </div>
+            </fieldset>
+            <fieldset>
+            <legend>Shipping Address</legend>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label class="required">Street</label>
+                    <input type="text" name="street">
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">City</label>
+                    <input type="text" name="city">
+                </div>
+            </div>
+            <div class="row">
+                <div class="my-input w-50 float-left">
+                    <label class="required">State</label>
+                    <input type="text" name="state">
+                </div>
+                <div class="my-input w-50 float-left">
+                    <label class="required">Zip Code</label>
+                    <input type="text" name="shipadd">
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Aggreement</legend>
+        <div class="row">
+            <div class="my-input w-50 float-left">
+               <label>
+                <input type="checkbox" name="aggree">I aggree with all privacy policy and terms and conditions.</label>
+            </div>
+            
+           </fieldset>
+           <div class="row">
+            <div class="w-50">
+                <input class="btn" type="submit" value="submit">
+            </div>
+       </div>
+        </form>
+    </div>
+
+    <div class="validation">
+
+
+		
+		<a href="https://validator.w3.org/check/referer"><img src="w3c-html.png" alt="Valid HTML5"></a>
+		<br>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png"	alt="Valid CSS"></a>
+	</div>
+
+</body>
