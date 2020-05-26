@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 100%;
+}
+.main{
+
+    margin: auto;
+    width: 800px;
+}
+.pad{
+    padding: 15px;
+    font-size: 25px;
+}
+#logo{
+
+    padding: 50px;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+h2{
+
+    font-size: 38px;
+}
+#total{
+    padding: 25px;
+}
