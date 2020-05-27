@@ -1,14 +1,11 @@
 
 function calcTip() {
-	var subtotalElem = document.getElementById("subtotal");
-	var tipElem = document.getElementById("tip");
+	var subtotalElem = document.getElementById('subtotal').value;
+	var tipElem = document.getElementById('tip').value;
 	var totalElem = document.getElementById('total');
 	var subtotal = subtotalElem;
-	var tip = subtotalElem*tipElem*0.01;
+	var tip = subtotal*0.01*tipElem;
 	var total = subtotal+tip;
-    totalElem.innerHTML = '$' + total;
-    // total.value=total;
+	totalElem.innerHTML = '$' +tip;
 }
 
-// document.getElementById("total").style.display = "block";
-//   document.getElementById("total").innerHTML = total;
