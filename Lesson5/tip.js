@@ -6,6 +6,6 @@ function calcTip() {
 	var subtotal = subtotalElem;
 	var tip = subtotal*0.01*tipElem;
 	var total = subtotal+tip;
-	totalElem.innerHTML = '$' +tip;
+	totalElem.innerHTML = '$' +total;
 }
 
