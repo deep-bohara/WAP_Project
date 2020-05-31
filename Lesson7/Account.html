@@ -15,7 +15,7 @@
 
 <body>
     <div class="container">
-        <div class="form">
+        <form class="form" id="btn">
             <!-- <p>Account Name:</p><input type="text" id="ac"><br /> -->
             <p>Account Name:<br />
                 <select name="account" id="ac">
@@ -23,13 +23,15 @@
                     <option selected value="Checking">Checking</option>
                     <option value="Business">Business</option>
                 </select></p>
-            <p>Deposit:</p><input type="text" id="dep">
+            <p>Deposit:</p><input type="text" name="dep" id="dep" placeholder="0" pattern="[1-9][0-9]{2,}" title="Minimum $100 to deposit.">
             <p>
-                <button type="button" id="btn">Create New Account</button>
+                <button type="submit" >Create New Account</button>
             </p>
             <textarea id="acinfo" rows="8" cols="80" readonly></textarea>
-        </div>
+        </form>
     </div>
+
+    <a href="https://validator.w3.org/check/referer"><img src="./../img/w3c-html.png" alt="Valid HTML5"></a>
 
 </body>
 

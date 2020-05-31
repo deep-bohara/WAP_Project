@@ -20,9 +20,10 @@ var accountModule = (function () {
 })()
 
 function pageLoad() {
-    document.getElementById("btn").onclick = function () {
+    document.getElementById("btn").onsubmit = function () {
         accountModule.createAcc();
         display();
+        return false;
     }
 
 
