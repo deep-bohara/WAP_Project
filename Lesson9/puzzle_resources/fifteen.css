@@ -46,6 +46,10 @@ body, button {
 .invalid {
 	background-color: #f88;
 }
+#controls{
+	text-align: left;
+
+}
 /* body{
 	background-image: url("background.jpg");
 } */
