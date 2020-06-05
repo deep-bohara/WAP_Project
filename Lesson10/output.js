@@ -14,7 +14,7 @@ $(function() {
 });
 
 function ajaxSuccess(data) {
-	$('#output').val(data);s
+	$('#output').val(data);
 }
 
 function ajaxFailure(xhr, status, exception) {
