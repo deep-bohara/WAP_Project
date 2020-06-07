@@ -18,6 +18,7 @@ $(function () {
             })
         e.preventDefault();
 
+       
     });
 
     var displayComments = function (commentBtn, comments) {
