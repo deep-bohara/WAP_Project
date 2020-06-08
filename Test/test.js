@@ -56,6 +56,10 @@ $(function(){
     $("body, div,p,em").click(hello);
 });
 function hello(){
+    var f=[1,2,3];
+    $("div").each(function(){
+        innerhtml="added";
+    })
     
     alert("Good luck!You clicked in"+this.nodName);
 }
